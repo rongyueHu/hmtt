@@ -75,7 +75,7 @@ export default {
     if (this.user && this.user.token) {
       try {
         const res = await getUserInfo()
-        console.log('res', res)
+        console.log('res9', res)
         this.userInfo = res.data.data
       } catch (err) {
         console.log(err)
