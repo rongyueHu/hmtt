@@ -7,9 +7,7 @@ const Question = () => import('@/views/Question')
 const Video = () => import('@/views/Video')
 const Login = () => import('@/views/Login')
 const Search = () => import('@/views/Search')
-
 Vue.use(VueRouter)
-
 const routes = [
   {
     path: '/',
